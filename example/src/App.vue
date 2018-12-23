@@ -5,7 +5,7 @@
     <btn />
     <List :list="lista" />
     <btnGosh text="Submit" :border=true />
-  </div>
+  </div> 
 </template>
 
 <script>
