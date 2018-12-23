@@ -1,0 +1,32 @@
+.buttongosh {
+	width:auto;
+	height: auto;
+	display: block;
+	float: left;
+	padding:1.2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	border:solid 1px white;
+	background:transparent;
+	cursor:pointer;
+	margin-left: 45%;
+	color:white;
+	font-family:'arial';
+	text-align: center;
+	font-size:140%;
+	letter-spacing: 1px;
+}
+
+.buttongosh:hover{
+	border-color: white;
+	color:grey;
+}
+
+.buttongosh:active{
+	border-color: grey;
+	color:white;
+}
+
+.borderRadius{
+	border-radius:8px;
+}

@@ -4,12 +4,12 @@
     <tag-component text="example text"></tag-component>
     <btn />
     <List :list="lista" />
-
+    <btnGosh text="Submit" :border=true />
   </div>
 </template>
 
 <script>
-import { tagComponent, btn, List,Title } from '../../src/index'
+import { tagComponent, btn, List,Title,btnGosh } from '../../src/index'
 
 export default {
   name: 'app',
@@ -20,7 +20,15 @@ export default {
     tagComponent,
     btn,
     List,
-    Title
+    Title,
+    btnGosh
   }
 }
 </script>
+
+<style>
+  #app{
+    height:1500px;
+    background:black;
+  }
+</style>
